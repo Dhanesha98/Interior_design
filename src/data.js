@@ -2,17 +2,17 @@
 import shippingIcon from "./assets/free-shiping-icon.svg";
 import paymentIcon from "./assets/quick-payment-icon.svg";
 import supportIcon from "./assets/support-icon.svg";
-import productOneIcon from "./assets/product-one.svg";
-import productTwoIcon from "./assets/produc-two.svg";
-import productThreeIcon from "./assets/product-three.svg";
+import productOneIcon from "./assets/product-one.jpg";
+import productTwoIcon from "./assets/produc-two.jpg";
+import productThreeIcon from "./assets/product-three.jpg";
 import plantIcon from "./assets/plant-icon.svg";
 import sunIcon from "./assets/sun-icon.svg";
 import waterIcon from "./assets/water-icon.svg";
 import temperatureIcon from "./assets/temperature-icon.svg";
 
-export const heroTitle = "Bring Serenity to Your Place With Interior Plants";
+export const heroTitle = "Handmade with love and a little bit of magic";
 export const heroSubtitle =
-  "find your dream plant for your home decoration with us, and we will make it happen.";
+  "find your dream craft for your home decoration with us, and we will make it happen.";
 
 export const services = [
   {
@@ -37,29 +37,29 @@ export const productsBtnText = "See Colection";
 
 export const products = [
   {
-    title: "Golden Pothos",
-    price: "$65.99",
+    title: "Dream Catchers",
+    price: "Rs:1000",
     img: productOneIcon,
   },
   {
-    title: "Rubber Plant",
-    price: "$75.00",
+    title: "Plant Rack",
+    price: "Rs:1500",
     img: productTwoIcon,
   },
   {
-    title: "Cast Iron Plant",
-    price: "$88.50",
+    title: "Wall Decor",
+    price: "Rs:1700",
     img: productThreeIcon,
   },
 ];
 
-export const referenceTitle = "Interior Plants Reference";
-export const referenceSubtitle = "make your home cozy with refreshing plants";
+export const referenceTitle = "Interior Crafts Reference";
+export const referenceSubtitle = "Design is thinking made visual";
 
-export const careTitle = "How to care for plants";
-export const careSubtitle = "Take care of plants with all your heart";
+export const aboutTitle = "How to care for plants";
+export const aboutSubtitle = "Take care of plants with all your heart";
 
-export const careList = [
+export const aboutList = [
   {
     title: "Adjust Lighting",
     subtitle:
@@ -107,8 +107,8 @@ export const footerLinksColumnTwo = [
   {
     title: "Address",
     links: [
-      "JL. Setiabudhi No. 193 Sukasari, Bandung West Java, Indonesia",
-      "hallo@daunku.com",
+      "Gampaha,Sri Lanka.",
+      "Nouveau@gmail.com",
     ],
   },
 ];

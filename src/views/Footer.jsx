@@ -22,7 +22,7 @@ const Footer = () => {
                   xs:text-lg placeholder-white"
               />
               <div
-                className="absolute top-2/4 -translate-y-2/4 right-3 bg-[linear-gradient(90deg,_#2AF598_0%,_#009EFD_100%)] px-6 py-2.5 rounded-full
+                className="absolute top-2/4 -translate-y-2/4 right-3 bg-[linear-gradient(90deg,_#C0D6E4_0%,_#009EFD_100%)] px-6 py-2.5 rounded-full
                 cursor-pointer text-white"
               >
                 Subscribe
@@ -90,7 +90,7 @@ const Footer = () => {
         <div className="w-full h-[1px] bg-white my-12" />
 
         <h6 className="text-white text-center text-base lg:text-lg">
-          &copy; Daunku - All rights reserved
+          &copy; Nouveau - All rights reserved
         </h6>
       </div>
     </div>

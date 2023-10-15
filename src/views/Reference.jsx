@@ -1,9 +1,9 @@
 // local imports
 import { referenceTitle, referenceSubtitle } from "../data";
 
-import imageOne from "../assets/image-one.svg";
-import imageTwo from "../assets/image-two.svg";
-import imageThree from "../assets/image-three.svg";
+import imageOne from "../assets/image-one.jpg";
+import imageTwo from "../assets/image-two.jpg";
+import imageThree from "../assets/image-three.jpg";
 
 import FadeIn from "../components/FadeIn";
 

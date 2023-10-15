@@ -1,5 +1,5 @@
 // local imports
-import Care from "./views/Care";
+import About from "./views/About";
 import Footer from "./views/Footer";
 import Hero from "./views/Hero";
 import Products from "./views/Products";
@@ -13,7 +13,7 @@ function App() {
       <Services />
       <Products />
       <Reference />
-      <Care />
+      <About />
       <Footer />
     </>
   );

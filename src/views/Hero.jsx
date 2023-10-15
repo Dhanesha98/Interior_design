@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 // local imports
-import heroImage from "../assets/hero-image.svg";
+import heroImage from "../assets/hero-image.jpg";
 import logo from "../assets/logo.svg";
 import cartIcon from "../assets/cart-icon.svg";
 import searchIcon from "../assets/search-icon.svg";
@@ -27,23 +27,25 @@ const Hero = () => {
         backgroundPosition: "bottom",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+       
       }}
     >
       <div
         className="relative w-full max-w-[1490px] flex 
         items-center justify-between pt-10 mx-auto px-10"
       >
-        <img src={logo} alt="" />
-        <ul className="hidden md:flex items-center gap-10 lg:gap-[68px]">
-          <NavLink to="services">Services</NavLink>
-          <NavLink to="products">Shop</NavLink>
-          <NavLink to="reference">Reference</NavLink>
-          <NavLink to="care">Care</NavLink>
-        </ul>
+      <img src={logo} alt=""/>
+
+      <ul className="hidden md:flex items-center gap-10 lg:gap-[68px]">
+        <NavLink to="services">Services</NavLink>
+        <NavLink to="products">Shop</NavLink>
+        <NavLink to="reference">Reference</NavLink>
+        <NavLink to="about">About Us</NavLink>
+      </ul>
 
         <img src={cartIcon} className="hidden md:block cursor-pointer" alt="" />
         <HiMenuAlt3
-          size={30}
+          size={32}
           className="block md:hidden cursor-pointer text-white"
           onClick={() => setShowMobileMenu((prev) => !prev)}
         />
@@ -69,8 +71,8 @@ const Hero = () => {
             <NavLink to="reference" mobileMenu>
               Reference
             </NavLink>
-            <NavLink to="care" mobileMenu>
-              Care
+            <NavLink to="about" mobileMenu>
+              About Us
             </NavLink>
           </ul>
 
