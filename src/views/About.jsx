@@ -5,7 +5,7 @@ import FadeIn from "../components/FadeIn";
 
 const About = () => {
   return (
-    <div id="care" className="px-10 max-w-[1490px] mx-auto mb-[160px]">
+    <div id="about" className="px-10 max-w-[1490px] mx-auto mb-[160px]">
       <FadeIn delay={0.2} direction="down">
         <h1 className="text-5xl lg:text-[64px] font-medium text-fontBlack mb-6 text-center">
           {aboutTitle}
@@ -23,11 +23,7 @@ const About = () => {
           {aboutList.map((item, i) => (
             <FadeIn key={i} delay={(i + 1) * 0.2} direction="left">
               <div className="flex flex-col xs:flex-row gap-6 items-center xs:items-start">
-                <img
-                  src={item.img}
-                  alt={item.title}
-                  className="h-[88px] w-[68px]"
-                />
+               
                 <div>
                   <h3 className="text-center xs:text-start mb-2 text-2xl lg:text-[28px] text-fontBlack font-medium">
                     {item.title}

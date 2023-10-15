@@ -5,10 +5,7 @@ import supportIcon from "./assets/support-icon.svg";
 import productOneIcon from "./assets/product-one.jpg";
 import productTwoIcon from "./assets/produc-two.jpg";
 import productThreeIcon from "./assets/product-three.jpg";
-import plantIcon from "./assets/plant-icon.svg";
-import sunIcon from "./assets/sun-icon.svg";
-import waterIcon from "./assets/water-icon.svg";
-import temperatureIcon from "./assets/temperature-icon.svg";
+
 
 export const heroTitle = "Handmade with love and a little bit of magic";
 export const heroSubtitle =
@@ -53,37 +50,32 @@ export const products = [
   },
 ];
 
-export const referenceTitle = "Interior Crafts Reference";
+export const referenceTitle = "Newest Sustainable Interior Design Innovations";
 export const referenceSubtitle = "Design is thinking made visual";
 
-export const aboutTitle = "How to care for plants";
-export const aboutSubtitle = "Take care of plants with all your heart";
+export const aboutTitle = "About Us";
+export const aboutSubtitle = "Transforming Spaces, Inspiring Lives";
 
 export const aboutList = [
   {
-    title: "Adjust Lighting",
+   title: "About Us",
     subtitle:
-      "When caring for houseplants, make sure the room temperature is neither too cold nor too hot.",
-    img: sunIcon,
+      "Welcome to Nouveau, where creativity and craftsmanship converge to transform your spaces into stunning, functional works of art. "
   },
   {
-    title: "Don't water too often",
+    title: "Our Vision",
     subtitle:
-      "Watering ornamental houseplants does not have to be done every day.",
-    img: waterIcon,
+    "Our vision is simple yet profound to create spaces that inspire, comfort, and captivate. We believe in the power of design to influence emotions, and we're here to make your vision a reality."
+ 
   },
   {
-    title: "Choose the right container.",
+    title: "Our Approach",
     subtitle:
-      "Houseplants will need different containers depending on their type and size.",
-    img: plantIcon,
-  },
-  {
-    title: "Fertilize regularly",
-    subtitle:
-      "The nutrients most indoor houseplants need are nitrogen for balance and potassium for stem strength.",
-    img: temperatureIcon,
-  },
+    "Our approach to interior design is a harmonious blend of creativity, functionality, and a deep understanding of your needs. "
+ 
+  }
+  
+ 
 ];
 
 export const newsletter = "Newsletter";

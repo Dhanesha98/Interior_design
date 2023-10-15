@@ -38,8 +38,8 @@ const Hero = () => {
 
       <ul className="hidden md:flex items-center gap-10 lg:gap-[68px]">
         <NavLink to="services">Services</NavLink>
-        <NavLink to="products">Shop</NavLink>
-        <NavLink to="reference">Reference</NavLink>
+        <NavLink to="products">Products</NavLink>
+        <NavLink to="reference">New Arrival</NavLink>
         <NavLink to="about">About Us</NavLink>
       </ul>
 
@@ -66,10 +66,10 @@ const Hero = () => {
               Services
             </NavLink>
             <NavLink to="products" mobileMenu>
-              Shop
+              Products
             </NavLink>
             <NavLink to="reference" mobileMenu>
-              Reference
+              New Arrival
             </NavLink>
             <NavLink to="about" mobileMenu>
               About Us
